@@ -1,5 +1,5 @@
 function App() {
-  return null;
+  return <div>Basic Ecommerce Application</div>;
 }
 
 export default App;
