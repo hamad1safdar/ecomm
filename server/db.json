@@ -1,0 +1,145 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "T-Shirt",
+      "description": "Comfortable cotton t-shirt",
+      "price": 15.99,
+      "quantity": 100,
+      "category": "Clothing",
+      "brand": "BrandX",
+      "images": ["tshirt_front.jpg", "tshirt_back.jpg"],
+      "reviews": [
+        {
+          "userId": 1,
+          "rating": 4,
+          "comment": "Nice fit and quality."
+        },
+        {
+          "userId": 2,
+          "rating": 5,
+          "comment": "Very comfortable."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jeans",
+      "description": "Classic blue denim jeans",
+      "price": 29.99,
+      "quantity": 50,
+      "category": "Clothing",
+      "brand": "BrandY",
+      "images": ["jeans_front.jpg", "jeans_back.jpg"],
+      "reviews": [
+        {
+          "userId": 1,
+          "rating": 5,
+          "comment": "Great fit and quality denim."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sneakers",
+      "description": "Sporty sneakers for everyday wear",
+      "price": 49.99,
+      "quantity": 30,
+      "category": "Footwear",
+      "brand": "BrandZ",
+      "images": ["sneakers_side.jpg", "sneakers_top.jpg"],
+      "reviews": []
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@example.com",
+      "cart": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 3,
+          "quantity": 1
+        }
+      ],
+      "orders": [
+        {
+          "orderId": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password2",
+      "email": "user2@example.com",
+      "cart": [],
+      "orders": [
+        {
+          "orderId": 2,
+          "status": "shipped"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "products": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 3,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 81.97,
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "products": [
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 29.99,
+      "status": "shipped"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Clothing"
+    },
+    {
+      "id": 2,
+      "name": "Footwear"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "BrandX"
+    },
+    {
+      "id": 2,
+      "name": "BrandY"
+    },
+    {
+      "id": 3,
+      "name": "BrandZ"
+    }
+  ]
+}
