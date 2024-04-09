@@ -8,7 +8,7 @@ import type { Config } from "jest";
 const config: Config = {
   testEnvironment: "jsdom",
   testMatch: ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[tj]s?(x)"],
-  testPathIgnorePatterns: ["/node_modules/"],
+  testPathIgnorePatterns: ["/node_modules/", "__tests__/test-utils/"],
   setupFilesAfterEnv: ["<rootDir>/setupTests.ts"],
   transform: {
     ".(ts|tsx)": "ts-jest",
