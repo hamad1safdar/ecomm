@@ -8,7 +8,7 @@ const ProductCard: FC<{
   imgUrl: string;
   title: string;
   description: string;
-  price: string;
+  price: number;
   onClick: (productId: number) => void;
 }> = ({ productId, imgUrl, title, description, price, onClick }) => {
   const handleClick = () => {

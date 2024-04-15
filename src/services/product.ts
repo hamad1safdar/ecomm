@@ -1,10 +1,14 @@
 import axios from "axios";
 
 import { SERVER_URL } from "../CONSTANTS";
+import type { PaginatedProductResponse } from "../types";
 
 const requestURL = SERVER_URL + "/products";
 
-export const getAll = async ({ page = 1, perPage = 10 }) => {
+export const getAll = async ({
+  page = 1,
+  perPage = 10,
+}): Promise<PaginatedProductResponse> => {
   return (await axios.get(requestURL + `?_page=${page}&_per_page=${perPage}`))
     .data;
 };

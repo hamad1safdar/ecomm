@@ -1,4 +1,5 @@
 import { useState } from "react";
+import type { FC } from "react";
 import { Pagination, Spin } from "antd";
 import { useQuery, keepPreviousData } from "@tanstack/react-query";
 
@@ -11,7 +12,7 @@ import { QUERY_KEYS } from "../../CONSTANTS";
 
 import "./styles.css";
 
-const Catalogue = () => {
+const Catalogue: FC = () => {
   const [page, setPage] = useState(1);
   const [perPage, setPerPage] = useState(10);
 
@@ -21,17 +22,12 @@ const Catalogue = () => {
     placeholderData: keepPreviousData,
   });
 
-  const handlePageChange = (selectedPage: number) => {
-    setPage(selectedPage);
-  };
+  const handlePageChange = (selectedPage: number) => setPage(selectedPage);
 
-  const handleLimitChange = (_current: number, pageSize: number) => {
+  const handleSizeChange = (_current: number, pageSize: number) =>
     setPerPage(pageSize);
-  };
 
-  const handleCardClick = (productId: number) => {
-    alert(productId);
-  };
+  const handleCardClick = (productId: number) => alert(productId);
 
   return (
     <div className="catalogue-page">
@@ -55,7 +51,7 @@ const Catalogue = () => {
       ) : (
         <>
           <Grid>
-            {data.data.map((product: any) => (
+            {data.data.map((product) => (
               <Item key={product.id}>
                 <ProductCard
                   productId={product.id}
@@ -70,12 +66,11 @@ const Catalogue = () => {
           </Grid>
           <div className="pagination-container">
             <Pagination
-              style={{ margin: "0 auto" }}
               onChange={handlePageChange}
               total={data.items}
               current={page}
               showSizeChanger
-              onShowSizeChange={handleLimitChange}
+              onShowSizeChange={handleSizeChange}
             />
           </div>
         </>
