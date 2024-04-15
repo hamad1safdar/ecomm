@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Pagination } from "antd";
+import { Pagination, Spin } from "antd";
 import { useQuery, keepPreviousData } from "@tanstack/react-query";
 
 import Carousel from "../../components/Carousel";
@@ -45,9 +45,13 @@ const Catalogue = () => {
       />
 
       {isPending ? (
-        <>Loading...</>
+        <div className="centered-content">
+          <Spin size="large" />
+        </div>
       ) : isError ? (
-        <>Error: {error.message}</>
+        <div className="centered-content">
+          Error: {error?.message || "Something went wrong!!"}
+        </div>
       ) : (
         <>
           <Grid>
