@@ -9,6 +9,7 @@
       "category": "Clothing",
       "brand": "BrandX",
       "images": ["tshirt_front.jpg", "tshirt_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
       "reviews": [
         {
           "userId": 1,
@@ -31,6 +32,7 @@
       "category": "Clothing",
       "brand": "BrandY",
       "images": ["jeans_front.jpg", "jeans_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
       "reviews": [
         {
           "userId": 1,
@@ -48,9 +50,635 @@
       "category": "Footwear",
       "brand": "BrandZ",
       "images": ["sneakers_side.jpg", "sneakers_top.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "name": "Hoodie",
+      "description": "Warm and cozy hoodie",
+      "price": 39.99,
+      "quantity": 80,
+      "category": "Clothing",
+      "brand": "BrandX",
+      "images": ["hoodie_front.jpg", "hoodie_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": [
+        {
+          "userId": 3,
+          "rating": 4,
+          "comment": "Love the design."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dress",
+      "description": "Elegant evening dress",
+      "price": 79.99,
+      "quantity": 60,
+      "category": "Clothing",
+      "brand": "BrandY",
+      "images": ["dress_front.jpg", "dress_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": [
+        {
+          "userId": 4,
+          "rating": 5,
+          "comment": "Fits perfectly."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Boots",
+      "description": "Stylish leather boots",
+      "price": 89.99,
+      "quantity": 40,
+      "category": "Footwear",
+      "brand": "BrandZ",
+      "images": ["boots_side.jpg", "boots_front.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 7,
+      "name": "Shorts",
+      "description": "Casual denim shorts",
+      "price": 19.99,
+      "quantity": 70,
+      "category": "Clothing",
+      "brand": "BrandX",
+      "images": ["shorts_front.jpg", "shorts_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 8,
+      "name": "Sandals",
+      "description": "Comfortable summer sandals",
+      "price": 24.99,
+      "quantity": 45,
+      "category": "Footwear",
+      "brand": "BrandY",
+      "images": ["sandals_side.jpg", "sandals_top.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 9,
+      "name": "Polo Shirt",
+      "description": "Classic polo shirt",
+      "price": 34.99,
+      "quantity": 55,
+      "category": "Clothing",
+      "brand": "BrandZ",
+      "images": ["polo_front.jpg", "polo_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": [
+        {
+          "userId": 5,
+          "rating": 4,
+          "comment": "Nice fabric."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Sweater",
+      "description": "Cozy knitted sweater",
+      "price": 44.99,
+      "quantity": 90,
+      "category": "Clothing",
+      "brand": "BrandX",
+      "images": ["sweater_front.jpg", "sweater_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 11,
+      "name": "Flip Flops",
+      "description": "Casual flip flops",
+      "price": 9.99,
+      "quantity": 25,
+      "category": "Footwear",
+      "brand": "BrandY",
+      "images": ["flipflops_side.jpg", "flipflops_top.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 12,
+      "name": "Swim Shorts",
+      "description": "Colorful swim shorts",
+      "price": 29.99,
+      "quantity": 35,
+      "category": "Clothing",
+      "brand": "BrandZ",
+      "images": ["swimshorts_front.jpg", "swimshorts_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 13,
+      "name": "Sweatpants",
+      "description": "Comfortable sweatpants",
+      "price": 27.99,
+      "quantity": 60,
+      "category": "Clothing",
+      "brand": "BrandX",
+      "images": ["sweatpants_front.jpg", "sweatpants_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 14,
+      "name": "Slippers",
+      "description": "Soft indoor slippers",
+      "price": 14.99,
+      "quantity": 40,
+      "category": "Footwear",
+      "brand": "BrandY",
+      "images": ["slippers_side.jpg", "slippers_top.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 15,
+      "name": "Blouse",
+      "description": "Stylish blouse for women",
+      "price": 34.99,
+      "quantity": 65,
+      "category": "Clothing",
+      "brand": "BrandZ",
+      "images": ["blouse_front.jpg", "blouse_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": [
+        {
+          "userId": 6,
+          "rating": 5,
+          "comment": "Beautiful design."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Sports Bra",
+      "description": "Supportive sports bra",
+      "price": 19.99,
+      "quantity": 30,
+      "category": "Clothing",
+      "brand": "BrandX",
+      "images": ["sportsbra_front.jpg", "sportsbra_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 17,
+      "name": "Running Shoes",
+      "description": "Performance running shoes",
+      "price": 69.99,
+      "quantity": 55,
+      "category": "Footwear",
+      "brand": "BrandY",
+      "images": ["runningshoes_side.jpg", "runningshoes_top.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": [
+        {
+          "userId": 7,
+          "rating": 4,
+          "comment": "Great support."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Jacket",
+      "description": "Stylish jacket for any occasion",
+      "price": 79.99,
+      "quantity": 45,
+      "category": "Clothing",
+      "brand": "BrandZ",
+      "images": ["jacket_front.jpg", "jacket_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": [
+        {
+          "userId": 8,
+          "rating": 5,
+          "comment": "Love the fit."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Tank Top",
+      "description": "Breathable tank top",
+      "price": 12.99,
+      "quantity": 70,
+      "category": "Clothing",
+      "brand": "BrandX",
+      "images": ["tanktop_front.jpg", "tanktop_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 20,
+      "name": "Formal Shoes",
+      "description": "Classic formal shoes",
+      "price": 59.99,
+      "quantity": 35,
+      "category": "Footwear",
+      "brand": "BrandY",
+      "images": ["formalshoes_side.jpg", "formalshoes_top.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": [
+        {
+          "userId": 9,
+          "rating": 4,
+          "comment": "Nice design."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Skirt",
+      "description": "Flowy summer skirt",
+      "price": 29.99,
+      "quantity": 60,
+      "category": "Clothing",
+      "brand": "BrandZ",
+      "images": ["skirt_front.jpg", "skirt_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 22,
+      "name": "Leggings",
+      "description": "Comfortable leggings for workouts",
+      "price": 17.99,
+      "quantity": 50,
+      "category": "Clothing",
+      "brand": "BrandX",
+      "images": ["leggings_front.jpg", "leggings_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 23,
+      "name": "Sunglasses",
+      "description": "Stylish sunglasses for sun protection",
+      "price": 39.99,
+      "quantity": 40,
+      "category": "Accessories",
+      "brand": "BrandY",
+      "images": ["sunglasses_side.jpg", "sunglasses_top.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 24,
+      "name": "Tie",
+      "description": "Elegant silk tie",
+      "price": 24.99,
+      "quantity": 60,
+      "category": "Accessories",
+      "brand": "BrandZ",
+      "images": ["tie_front.jpg", "tie_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 25,
+      "name": "Pajamas",
+      "description": "Cozy pajama set",
+      "price": 34.99,
+      "quantity": 80,
+      "category": "Clothing",
+      "brand": "BrandX",
+      "images": ["pajamas_front.jpg", "pajamas_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 26,
+      "name": "Backpack",
+      "description": "Durable backpack for everyday use",
+      "price": 49.99,
+      "quantity": 35,
+      "category": "Accessories",
+      "brand": "BrandY",
+      "images": ["backpack_side.jpg", "backpack_front.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": [
+        {
+          "userId": 10,
+          "rating": 5,
+          "comment": "Spacious and comfortable."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Gloves",
+      "description": "Warm winter gloves",
+      "price": 19.99,
+      "quantity": 50,
+      "category": "Accessories",
+      "brand": "BrandZ",
+      "images": ["gloves_front.jpg", "gloves_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 28,
+      "name": "Scarf",
+      "description": "Soft woolen scarf",
+      "price": 29.99,
+      "quantity": 60,
+      "category": "Accessories",
+      "brand": "BrandX",
+      "images": ["scarf_front.jpg", "scarf_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 29,
+      "name": "Watch",
+      "description": "Stylish wristwatch",
+      "price": 99.99,
+      "quantity": 25,
+      "category": "Accessories",
+      "brand": "BrandY",
+      "images": ["watch_side.jpg", "watch_top.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 30,
+      "name": "Wallet",
+      "description": "Classic leather wallet",
+      "price": 49.99,
+      "quantity": 40,
+      "category": "Accessories",
+      "brand": "BrandZ",
+      "images": ["wallet_front.jpg", "wallet_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 31,
+      "name": "Belt",
+      "description": "Genuine leather belt",
+      "price": 39.99,
+      "quantity": 55,
+      "category": "Accessories",
+      "brand": "BrandX",
+      "images": ["belt_front.jpg", "belt_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 32,
+      "name": "Hat",
+      "description": "Stylish hat for any season",
+      "price": 19.99,
+      "quantity": 45,
+      "category": "Accessories",
+      "brand": "BrandY",
+      "images": ["hat_front.jpg", "hat_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 33,
+      "name": "Earrings",
+      "description": "Fashionable earrings",
+      "price": 14.99,
+      "quantity": 30,
+      "category": "Accessories",
+      "brand": "BrandZ",
+      "images": ["earrings_front.jpg", "earrings_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 34,
+      "name": "Necklace",
+      "description": "Elegant necklace for any occasion",
+      "price": 29.99,
+      "quantity": 35,
+      "category": "Accessories",
+      "brand": "BrandX",
+      "images": ["necklace_front.jpg", "necklace_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 35,
+      "name": "Bracelet",
+      "description": "Stylish bracelet",
+      "price": 19.99,
+      "quantity": 40,
+      "category": "Accessories",
+      "brand": "BrandY",
+      "images": ["bracelet_front.jpg", "bracelet_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 36,
+      "name": "Ring",
+      "description": "Classic ring",
+      "price": 39.99,
+      "quantity": 45,
+      "category": "Accessories",
+      "brand": "BrandZ",
+      "images": ["ring_front.jpg", "ring_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 37,
+      "name": "Cufflinks",
+      "description": "Elegant cufflinks for formal occasions",
+      "price": 24.99,
+      "quantity": 30,
+      "category": "Accessories",
+      "brand": "BrandX",
+      "images": ["cufflinks_front.jpg", "cufflinks_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 38,
+      "name": "Suit",
+      "description": "Classic suit for men",
+      "price": 199.99,
+      "quantity": 20,
+      "category": "Clothing",
+      "brand": "BrandY",
+      "images": ["suit_front.jpg", "suit_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 39,
+      "name": "Tuxedo",
+      "description": "Elegant tuxedo for formal events",
+      "price": 299.99,
+      "quantity": 15,
+      "category": "Clothing",
+      "brand": "BrandZ",
+      "images": ["tuxedo_front.jpg", "tuxedo_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 40,
+      "name": "Socks",
+      "description": "Comfortable cotton socks",
+      "price": 9.99,
+      "quantity": 50,
+      "category": "Clothing",
+      "brand": "BrandX",
+      "images": ["socks_front.jpg", "socks_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 41,
+      "name": "Beanie",
+      "description": "Warm knitted beanie",
+      "price": 14.99,
+      "quantity": 40,
+      "category": "Accessories",
+      "brand": "BrandY",
+      "images": ["beanie_front.jpg", "beanie_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 42,
+      "name": "Shawl",
+      "description": "Elegant shawl for evenings",
+      "price": 29.99,
+      "quantity": 30,
+      "category": "Accessories",
+      "brand": "BrandZ",
+      "images": ["shawl_front.jpg", "shawl_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 43,
+      "name": "Sun Hat",
+      "description": "Wide-brimmed sun hat",
+      "price": 19.99,
+      "quantity": 35,
+      "category": "Accessories",
+      "brand": "BrandX",
+      "images": ["sunhat_front.jpg", "sunhat_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 44,
+      "name": "Handbag",
+      "description": "Stylish handbag for everyday use",
+      "price": 79.99,
+      "quantity": 25,
+      "category": "Accessories",
+      "brand": "BrandY",
+      "images": ["handbag_side.jpg", "handbag_front.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 45,
+      "name": "Briefcase",
+      "description": "Professional leather briefcase",
+      "price": 149.99,
+      "quantity": 20,
+      "category": "Accessories",
+      "brand": "BrandZ",
+      "images": ["briefcase_side.jpg", "briefcase_front.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 46,
+      "name": "Smartwatch",
+      "description": "Modern smartwatch with various features",
+      "price": 199.99,
+      "quantity": 15,
+      "category": "Electronics",
+      "brand": "BrandX",
+      "images": ["smartwatch_side.jpg", "smartwatch_top.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": [
+        {
+          "userId": 11,
+          "rating": 4,
+          "comment": "Great connectivity."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Wireless Headphones",
+      "description": "High-quality wireless headphones",
+      "price": 149.99,
+      "quantity": 10,
+      "category": "Electronics",
+      "brand": "BrandY",
+      "images": ["headphones_side.jpg", "headphones_top.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": [
+        {
+          "userId": 12,
+          "rating": 5,
+          "comment": "Excellent sound quality."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker",
+      "price": 79.99,
+      "quantity": 20,
+      "category": "Electronics",
+      "brand": "BrandZ",
+      "images": ["speaker_side.jpg", "speaker_top.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 49,
+      "name": "Laptop Bag",
+      "description": "Stylish laptop bag",
+      "price": 49.99,
+      "quantity": 30,
+      "category": "Accessories",
+      "brand": "BrandX",
+      "images": ["laptopbag_front.jpg", "laptopbag_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
+      "reviews": []
+    },
+    {
+      "id": 50,
+      "name": "Tablet Case",
+      "description": "Protective case for tablets",
+      "price": 19.99,
+      "quantity": 40,
+      "category": "Accessories",
+      "brand": "BrandY",
+      "images": ["tabletcase_front.jpg", "tabletcase_back.jpg"],
+      "imageUrl": "https://via.placeholder.com/250x150",
       "reviews": []
     }
   ],
+
   "users": [
     {
       "id": 1,
